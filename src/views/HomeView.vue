@@ -1,5 +1,11 @@
+<script setup>
+import FilterBarRoot from '@/components/filter-bar/FilterBarRoot.vue'
+</script>
+
 <template>
     <main>
-        <h1 class="text-red-500">Homepage</h1>
+        <section class="px-48 mt-[55px]">
+            <FilterBarRoot />
+        </section>
     </main>
 </template>
