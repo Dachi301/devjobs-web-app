@@ -22,10 +22,7 @@ import LocationIcon from '@/components/icons/LocationIcon.vue'
             <SearchIcon class-name="absolute top-7 left-8" />
         </FormFilterOption>
         <FormFilterOption class="grow-[1]">
-            <TextInput
-                class="pl-[56px]"
-                placeholder="Filter by title, companies, expertise…"
-            />
+            <TextInput class="pl-[56px]" placeholder="Filter by location…" />
             <LocationIcon class="absolute top-7 left-[23px]" />
         </FormFilterOption>
         <FormFilterOption class="bg-white rounded-r-[6px]">
